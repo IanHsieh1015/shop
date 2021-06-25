@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Chocolate-商城</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon"
+    href="https://lh3.googleusercontent.com/pw/ACtC-3cY3VQa6m8HbZC0WglhAMsU0DtfmnuX0fcAqmIYzLhrVNjOVWjfObPGQSa9pNu2YMd3tVn5yUjIDtWvRFh6-JTS9eYHVTqKVuGXM5QIim-nf_woJ518omSqMqMZNo8igIuhnwFAriGWEPnuNO92Mfr7=w120-h70-no?authuser=1"
+    type="">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+  <div class="wrap">
+    <!-- navbar -->
+    <header class="container-fluid">
+      <nav class="navbar navbar-expand-md mynav bg-chocolate">
+        <!-- Brand -->
+        <a class="navbar-brand" href="shopping.html">
+          <img
+            src="https://lh3.googleusercontent.com/pw/ACtC-3cY3VQa6m8HbZC0WglhAMsU0DtfmnuX0fcAqmIYzLhrVNjOVWjfObPGQSa9pNu2YMd3tVn5yUjIDtWvRFh6-JTS9eYHVTqKVuGXM5QIim-nf_woJ518omSqMqMZNo8igIuhnwFAriGWEPnuNO92Mfr7=w120-h70-no?authuser=1"
+            style="width: 85%;">
+        </a>
+
+        <!-- Toggler/collapse Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <i class="fa fa-bars"></i>
+        </button>
+
+        <!-- Navbar Links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav act-hov">
+            <li class="nav-item active">
+              <a class="nav-link" href="shopping.html">首頁</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">關於公司</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop.html">商品商城</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="job.html">人力資源</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">聯絡我們</a>
+            </li>
+          </ul>
+          <!-- <div class="ml-auto nav-btn">
+						<a href="signin.html" class="btn bg-wheat">登入/註冊</a>
+						<a href="cart.html" class="btn bg-wheat">購物車</a>
+						<a href="checkout.html" class="btn bg-wheat">結帳</a>
+					</div> -->
+        </div>
+      </nav>
+    </header>
+    <!-- /navbar -->
+
+    <!-- commodity -->
+    <section class="container my-3">
+      <div class="row">
+        <!-- left commodity -->
+        <div class="col-md-9">
+          <div class="row">
+            <div class="col-md-12 mb-3">
+              <!-- <img src="https://lh3.googleusercontent.com/pw/ACtC-3dgTSZ7SR5KYqSeMfoSxZZVJsu04HwBQx7bWdq22FAIdkqh3tvzH93quHp8uxCKCrns0ZHPNi09e8RA3yKx0pVi1Wh7PPjheCeewORJMPAsauzZduxZPZ6YRqE15JWXrd3vWaH4SBnVHrrOnnychuZ9=w1301-h867-no?authuser=1" class="img-fluid"> -->
+              <div class="img-fluid"></div>
+            </div>
+            <div class="col-md-12">
+              <h2 class="d-inline-block">顯示商品</h2>
+              <form action="/action_page.php" class="d-inline-block float-right">
+                <div class="form-group">
+                  <select class="form-control" id="sel1" name="sellist1">
+                    <option>依上架時間</option>
+                    <option>依類型</option>
+                    <option>依價位</option>
+                  </select>
+                </div>
+              </form>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+              <div class="card mycard">
+
+                <img class="card-img-top"
+                  src="https://lh3.googleusercontent.com/pw/ACtC-3fMvn04Y2GzknH7yTRyTDwPNe7nokHxqkFpbET-P5ULWlywnCGA80NLwVVA8lHmvo0duF5Jz8S0wq56eNe9Xi9jFF6tb9bcSCttXWusWhyDosmB8OjoCcxBZ5bFkGJabtkmrrs6sltHxBchxwKppbA8=w1175-h783-no?authuser=1"
+                  alt="Card image" style="width:100%">
+                <div class="card-body">
+                  <h4 class="card-title">新鮮草莓</h4>
+                  <p class="card-text">嚴選農場，早晨或傍晚採收，保存在接近零度但不結霜之環境，未噴灑農藥</p>
+                  <h5 class="text-danger my-2"><small
+                      class="text-secondary mr-2"><del>NT$&nbsp;600</del></small>NT$&nbsp;500</h5>
+                  <button class="btn btn-wheat btn-block mycart-btn add-shop" data-title="新鮮草莓"
+                    data-price="500">加入購物車</button>
+                </div>
+
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+              <div class="card mycard">
+
+                <img class="card-img-top"
+                  src="https://lh3.googleusercontent.com/pw/ACtC-3fTxw6izBvTvfoxVseT-mG-5L59TtJ4BIyscEu2F9cmmlaNc0Qrhk6oneJavtXT9qafvHWy25lKgLH6fepT24RUd79rdYOD3YjqeyAMmKIIYkV-9Anvo8MNvw1k-noyMQPoBG8nCX5dzpvDGRBAi4rH=w1247-h831-no?authuser=1"
+                  alt="Card image" style="width:100%">
+                <div class="card-body">
+                  <h4 class="card-title">低脂鮮奶</h4>
+                  <p class="card-text">嚴選牧場，每日新鮮直送，經加溫殺菌包裝後冷藏供飲用之乳汁，包含脂肪調整鮮乳</p>
+                  <h5 class="text-danger my-2"><small
+                      class="text-secondary mr-2"><del>NT$&nbsp;600</del></small>NT$&nbsp;400</h5>
+                  <button class="btn btn-wheat btn-block mycart-btn add-shop" data-title="低脂鮮奶"
+                    data-price="400">加入購物車</button>
+                </div>
+
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+              <div class="card mycard">
+
+                <img class="card-img-top"
+                  src="https://lh3.googleusercontent.com/pw/ACtC-3dvV1XO9OvWplpB7ykocRqKznEXPm8SZw_mk42uaT6Q-GmmrefdkSJMOGvGqo8Q2o85tWKqzJVHxqU2dKipIHcaLhroFYvRFdH3Wl-wvAeUA5kQ9sGtaiLPn8i7XE8YTRYGzHJr-mQNdP1jwTi-7jld=w1380-h737-no?authuser=1"
+                  alt="Card image" style="width:100%">
+                <div class="card-body">
+                  <h4 class="card-title">可可</h4>
+                  <p class="card-text">選用南美洲南緯20度到北緯20度間平均溫度18-28℃，生長在海拔30到300米間的可可</p>
+                  <h5 class="text-danger my-2"><small
+                      class="text-secondary mr-2"><del>NT$&nbsp;600</del></small>NT$&nbsp;600</h5>
+                  <button class="btn btn-wheat btn-block mycart-btn add-shop" data-title="可可"
+                    data-price="600">加入購物車</button>
+                </div>
+
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+              <div class="card mycard">
+
+                <img class="card-img-top"
+                  src="https://lh3.googleusercontent.com/pw/ACtC-3csFXd4G0qJM0Dv0hTFex_bNB8TsmOOt3b5dhVuJfSYjmpmWXSX7VMv9GWYs0ScpXvMGqfFXzYq5uUd15mhTTt2HaaotmhQdPLlVcMVEDmaG_CZ-JrySBt7XiRxCd3LEMvK53VEK2uul-31nqfWgDPp=w611-h915-no?authuser=1"
+                  alt="Card image" style="width:100%">
+                <div class="card-body">
+                  <h4 class="card-title">巧克力</h4>
+                  <p class="card-text">巧克力塊，回歸復古，巧克力的經典</p>
+                  <h5 class="text-danger my-2"><small
+                      class="text-secondary mr-2"><del>NT$&nbsp;600</del></small>NT$&nbsp;800</h5>
+                  <button class="btn btn-wheat btn-block mycart-btn add-shop" data-title="巧克力"
+                    data-price="800">加入購物車</button>
+                </div>
+
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+              <div class="card mycard">
+
+                <img class="card-img-top"
+                  src="https://lh3.googleusercontent.com/pw/ACtC-3d62nsONnOLNIw1hJkukavlpQPjfiw_mkoNJYEZPUG7gr8T6qfEMO8DBOXcBPsM7drsfCAUK_QdP7DrxIIPsiOImMstPy3jY8q_4mbQW6Bh0Aor5_dJ8bQIStFxZgUVG4mAAlPO5oiSZ7UFxmKH78lj=w687-h915-no?authuser=1"
+                  alt="Card image" style="width:100%">
+                <div class="card-body">
+                  <h4 class="card-title">巧克力冰棒</h4>
+                  <p class="card-text">一整枝以純巧克力製作的傳統冰棒</p>
+                  <h5 class="text-danger my-2"><small
+                      class="text-secondary mr-2"><del>NT$&nbsp;600</del></small>NT$&nbsp;300</h5>
+                  <button class="btn btn-wheat btn-block mycart-btn add-shop" data-title="巧克力冰棒"
+                    data-price="300">加入購物車</button>
+                </div>
+
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+              <div class="card mycard">
+
+                <img class="card-img-top"
+                  src="https://lh3.googleusercontent.com/pw/ACtC-3e-NVXIx3Bh9FxlbKRanusxN9S7XMq-HGAb7nUkNgY2pavE4jJ59oNIgw6HMU_YCELERjVeFhm2rWrrvQHVyy5pfgcoitqEwz7R69uPDPyPAMPXPNq4vGKh8U8Yv-P-n2iPbPBk6ALlSdHtmd4ZBbQJ=w611-h915-no?authuser=1"
+                  alt="Card image" style="width:100%">
+                <div class="card-body">
+                  <h4 class="card-title">巧克力奶蓋</h4>
+                  <p class="card-text">純巧克力粉，再蓋上濃濃的低脂鮮奶奶蓋 </p>
+                  <h5 class="text-danger my-2"><small
+                      class="text-secondary mr-2"><del>NT$&nbsp;600</del></small>NT$&nbsp;900</h5>
+                  <button class="btn btn-wheat btn-block mycart-btn add-shop" data-title="巧克力奶蓋"
+                    data-price="900">加入購物車</button>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-md-12 mt-3">
+              <ul class="pagination justify-content-center">
+                <li class="page-item"><a class="page-link btn-wheat" href="javascript:void(0);">Previous</a></li>
+                <li class="page-item"><a class="page-link btn-wheat" href="javascript:void(0);">1</a></li>
+                <li class="page-item"><a class="page-link btn-wheat" href="javascript:void(0);">2</a></li>
+                <li class="page-item"><a class="page-link btn-wheat" href="javascript:void(0);">Next</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- /left commodity -->
+
+        <!-- right commodity -->
+        <div class="col-md-3 mt-5">
+          <div class="row">
+            <div class="col-md-12 mt-5">
+              <form action="">
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control btn-wheat-border" placeholder="Search..." id="mail"
+                    name="email">
+                  <div class="input-group-append">
+                    <span class="input-group-text bg-wheat">搜尋</span>
+                  </div>
+                </div>
+              </form>
+            </div>
+
+            <div class="col-md-12 mt-3">
+              <h4>購物車</h4>
+              <div class="my-3">
+                <a href="#" data-toggle="tooltip" data-placement="top" title="刪除?" class="delete">X</a>
+                <a href="#"><img
+                    src="https://lh3.googleusercontent.com/pw/ACtC-3fMvn04Y2GzknH7yTRyTDwPNe7nokHxqkFpbET-P5ULWlywnCGA80NLwVVA8lHmvo0duF5Jz8S0wq56eNe9Xi9jFF6tb9bcSCttXWusWhyDosmB8OjoCcxBZ5bFkGJabtkmrrs6sltHxBchxwKppbA8=w1175-h783-no?authuser=1">
+                  <h6 class="my-3">新鮮草莓</h6>
+                </a>
+                <p><span>1</span>&nbsp;X&nbsp;NT$500</p>
+              </div>
+              <div class="mb-3">
+                <h4 class="text-danger">小計:NT$&nbsp;500</h4>
+              </div>
+              <div class="mb-3">
+                <a href="cart.html" class="btn bg-wheat btn-block view-shop">查看購物車</a>
+              </div>
+              <div>
+                <a href="checkout.html" class="btn bg-wheat btn-block">結帳</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /right commodity -->
+      </div>
+    </section>
+    <!-- commodity -->
+
+    <!-- footer -->
+    <footer class="container-fluid bg-chocolate mt-5 px-5 py-4">
+      <div class="row">
+        <div class="col-md-6 mb-4">
+          <ul class="footer-menu act-hov">
+            <li class="nav-item">
+              <a class="nav-link" href="shopping.html">首頁</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">關於公司</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="shop.html">商品商城</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="job.html">人力資源</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">聯絡我們</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <form action="">
+            <div class="form-group">
+              <label for="email" class="pb-2">
+                <h5>請留下e-mail，我會給您最新消息</h5>
+              </label>
+              <input type="email" class="form-control" placeholder="Enter email" id="email">
+            </div>
+            <button type="submit" class="btn bg-wheat send-btn ml-auto">傳送</button>
+          </form>
+        </div>
+        <p class="copyright col-md-12 text-center mt-4">&copy; Copyright 2020 Chocolate</p>
+      </div>
+    </footer>
+    <!-- footer -->
+
+    <!-- float-box -->
+    <div class="float-box">
+      <a class="signin-btn" href="signin.html" title="登入/註冊">
+        <i class="fa fa-user" style="font-size: 24px;"></i>
+      </a>
+      <a class="shop-btn" href="cart.html" title="購物車">
+        <i class="fa fa-shopping-cart" style="font-size: 24px;"></i>
+      </a>
+      <a class="checkout-btn" href="checkout.html" title="結帳">
+        <i class="fa fa-cc-visa" style="font-size: 24px;"></i>
+      </a>
+      <a class="gotop-btn" href="#" title="回頁首">
+        <i class="fa fa-caret-up" style="font-size: 40px;"></i>
+      </a>
+    </div>
+    <!-- /float-box -->
+  </div>
+
+
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/addshop.js"></script>
+  <script src="js/gotop.js"></script>
+</body>
+
+</html>
